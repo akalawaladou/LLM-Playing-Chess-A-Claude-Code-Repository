@@ -24,8 +24,12 @@ import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 
-from chess_engine import load_vocab
-from model import ChessGPT
+try:
+    from .chess_engine import load_vocab
+    from .model import ChessGPT
+except ImportError:
+    from chess_engine import load_vocab
+    from model import ChessGPT
 
 
 N_CLASSES = 13   # 0=empty, 1-6 white, 7-12 black

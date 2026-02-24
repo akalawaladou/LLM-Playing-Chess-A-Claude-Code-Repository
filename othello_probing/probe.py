@@ -28,7 +28,10 @@ import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 
-from model import OthelloGPT
+try:
+    from .model import OthelloGPT          # package import (app.py context)
+except ImportError:
+    from model import OthelloGPT           # standalone: python probe.py
 
 
 # ---------------------------------------------------------------------------
