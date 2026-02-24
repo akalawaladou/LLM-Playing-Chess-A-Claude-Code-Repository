@@ -1,3 +1,4 @@
 __pycache__/
 *.pyc
 othello_probing/checkpoints/
+chess_probing/checkpoints/
