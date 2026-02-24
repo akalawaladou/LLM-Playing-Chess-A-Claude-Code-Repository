@@ -21,8 +21,6 @@ import streamlit as st
 
 # ── path setup ──────────────────────────────────────────────────────────────
 ROOT = os.path.dirname(__file__)
-sys.path.insert(0, os.path.join(ROOT, "othello_probing"))
-sys.path.insert(0, os.path.join(ROOT, "chess_probing"))
 
 
 # ── page config ─────────────────────────────────────────────────────────────
