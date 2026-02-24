@@ -10,7 +10,7 @@ ever showing it a board** — and then probe its internal activations to see whe
 has learned an implicit representation of the board state.
 
 A companion Medium article explains the results in detail (French):
-[Les LLM hallucinent aux échecs et c'est normal, vraiment?](article_continuation.md)
+[Les LLM hallucinent aux échecs et c'est normal, vraiment?](https://medium.com/@meryrami/les-llm-hallucinent-aux-%C3%A9checs-et-cest-normal-vraiment-080170a3d62a)
 
 ---
 
